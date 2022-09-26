@@ -24,9 +24,6 @@
 		"update-snapshots": "vitest run --mode umami --update --silent && vitest run --mode default --update --silent",
 		"coverage": "vitest run --mode umami --coverage && vitest run --mode default --coverage"
 	},
-	"engines": {
-	    "node": "^18.0"
-	  },
 	"dependencies": {
 		"@pantheon-systems/drupal-kit": "3.0.0",
 		"@pantheon-systems/nextjs-kit": "1.1.0",
